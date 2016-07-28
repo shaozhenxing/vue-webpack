@@ -4,15 +4,18 @@
 </template>
 
 <script>
+
 import app01 from './App-01.vue'
-export default {
-  data () {
-    return {
-      msg: 'Hello Vue!'
-    }
-  },
-  components:{app01}
+
+module.exports = {
+    data:function(){
+        return{
+            msg:'父亲1'
+        }
+    },
+    components:{app01}
 }
+
 </script>
 
 <style scoped>

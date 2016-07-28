@@ -38,5 +38,6 @@ module.exports = {
   ],
   module: {
     loaders: loaders
-  }
+  },
+  watch:true
 };
